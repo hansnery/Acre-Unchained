@@ -1,0 +1,7 @@
+spriteTypes = {
+	# ACR
+	spriteType = {
+        name = "GFX_goal_acre_first"
+        textureFile = "gfx/interface/goals/goal_acre_first.dds"
+    }
+}

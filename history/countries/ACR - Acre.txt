@@ -1,0 +1,136 @@
+﻿capital = 763
+
+oob = "ACR_1936"
+
+set_stability = 0.75
+set_war_support = 0.4
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	#generic focuses
+	# complete_national_focus = army_effort
+	# complete_national_focus = equipment_effort
+	# complete_national_focus = motorization_effort
+	# complete_national_focus = aviation_effort
+	# complete_national_focus = construction_effort_2
+	# complete_national_focus = production_effort_2
+	# complete_national_focus = infrastructure_effort
+	# complete_national_focus = industrial_effort
+	# complete_national_focus = construction_effort
+	# complete_national_focus = production_effort
+	
+	oob = "ACR_1936"
+	set_technology = {
+		interwar_artillery = 1
+		infantry_weapons1 = 1
+		infantry_weapons2 = 1
+		support_weapons = 1
+
+		#doctrines
+		air_superiority = 1
+		grand_battle_plan = 1
+		trench_warfare = 1
+		fleet_in_being = 1
+		battlefleet_concentration = 1
+		convoy_sailing = 1
+
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		synth_oil_experiments = 1
+		oil_processing = 1
+		improved_oil_processing = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15
+	fascism = 15
+	communism = 15
+	neutrality = 55
+}
+
+# José Plácido de Castro
+create_country_leader = {
+	name = "José Plácido de Castro"
+	#desc = "POLITICS_PLACIDO_DE_CASTRO_DESC"
+	picture = "Portrait_Placido.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		dictator
+	}
+}
+
+# Otto Schulz-Kampfhenkel
+create_country_leader = {
+	name = "Otto Schulz-Kampfhenkel"
+	#desc = "POLITICS_OTTO_SCHULZ_DESC"
+	picture = "Portrait_Otto.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+	}
+}
+
+# Oscar Passos
+create_country_leader = {
+	name = "Oscar Passos"
+	#desc = "POLITICS_OTTO_SCHULZ_DESC"
+	picture = "Portrait_Oscar.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+# Hugo Ribeiro Carneiro
+create_country_leader = {
+	name = "Hugo Ribeiro Carneiro"
+	#desc = "POLITICS_OTTO_SCHULZ_DESC"
+	picture = "Portrait_Hugo.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		dictator
+	}
+}
+
+create_corps_commander = {
+	name = "José Plácido de Castro"
+	portrait_path = "gfx/leaders/ACR/Portrait_Placido.dds"
+	traits = { trickster }
+	skill = 4
+}

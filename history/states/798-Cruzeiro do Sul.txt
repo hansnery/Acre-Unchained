@@ -1,0 +1,25 @@
+state={
+	id=798
+	name="STATE_798"
+	manpower = 750000 #Roughly 1/4 of Bolivia. In reality it was around 70k.
+	state_category = large_city
+	
+	resources={
+		rubber=20
+	}
+	
+	history={
+		owner = ACR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ACR
+		victory_points = {
+			13207 5 
+		}
+	}
+	
+	provinces={
+		2198 5216 
+	}
+}

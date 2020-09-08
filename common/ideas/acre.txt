@@ -1,0 +1,219 @@
+ideas = {
+	political_advisor = {
+
+		ACR_hans_nery = {
+			
+			picture = generic_political_advisor_south_america_1
+
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { war_industrialist }
+		}
+		
+		ACR_eliseu = {
+			
+			picture = generic_political_advisor_south_america_2
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { captain_of_industry }
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
+
+	theorist = {
+		
+		ACR_izaquiel = {
+			ledger = army
+			
+			picture = generic_army_south_america_2
+
+			allowed = {
+				original_tag = ACR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+			
+			traits = { military_theorist }
+		}
+
+		ACR_alvaro = {
+			ledger = air
+			
+			picture = generic_political_advisor_south_america_3
+				
+			allowed = {
+				original_tag = ACR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.07
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+	}
+
+	high_command = {
+
+		ACR_hans_nery_2 = {
+			ledger = army
+			
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { army_armored_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ACR_izaquiel_2 = {
+			ledger = army
+			
+			picture = generic_political_advisor_south_america_2
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ACR_eliseu_2 = {
+			ledger = army
+			
+			picture = generic_political_advisor_south_america_2
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ACR_alvaro_2 = {
+			ledger = air
+			
+			picture = generic_political_advisor_south_america_3
+
+			picture = generic_air_south_america_2
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		ACR_hans_nery_3 = {
+			
+			picture = generic_political_advisor_south_america_1
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ACR_izaquiel_3 = {
+			
+			picture = generic_political_advisor_south_america_2
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+		ACR_alvaro_3 = {
+			
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		ACR_alvaro_4 = {
+			
+			picture = generic_political_advisor_south_america_3
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { navy_chief_naval_aviation_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		ACR_gilson = {
+			
+			picture = generic_navy_south_america_1
+			
+			allowed = {
+				original_tag = ACR
+			}
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+}
