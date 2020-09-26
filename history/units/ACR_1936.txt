@@ -31,20 +31,20 @@ division_template = {
 units = {
 	division = {
 		name = "Guarda Revolucionária Acreana"
-		location = 13206
+		location = 10960
 		division_template = "Guarda Revolucionária Acreana"
 		start_experience_factor = 0.8
 	}
 	division = {
 		name = "Jagunços de Cruzeiro do Sul"
-		location = 13207
+		location = 10960
 		division_template = "Seringueiros"
 		start_equipment_factor = 0.4
 
 	}
 	division = {
 		name = "Jagunços de Boca do Acre"
-		location = 13208
+		location = 10960
 		division_template = "Seringueiros"
 		start_equipment_factor = 0.4
 
